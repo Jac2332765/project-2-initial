@@ -21,7 +21,8 @@ public class Project2 {
         ThreeDimensionalShape cube = new Cube(5.0);
         ThreeDimensionalShape cylinder = new Cylinder(1.0, 4.0);
         ThreeDimensionalShape Cone = new Cone(3.0, 2.0);
-        ThreeDimensionalShape Torus = new Torus(3.0, 2.0);
+        ThreeDimensionalShape Torus = new Torus(27.0, 8.0);
+        ThreeDimensionalShape Prism = new Prism(15.0, 21.0);
 
 
 
@@ -30,9 +31,10 @@ public class Project2 {
         shapes.add(sphere);
         shapes.add(cube);
         shapes.add(cylinder);
+
         shapes.add(Cone);
         shapes.add(Torus);
-
+        shapes.add(Prism);
 
         shapes.forEach(System.out::println);
     }

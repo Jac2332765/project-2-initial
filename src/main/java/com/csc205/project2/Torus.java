@@ -1,5 +1,7 @@
 package com.csc205.project2;
 
+
+//GENERATED CODE WITH CHAT GPT
 public class Torus extends Shape {
 
     private double majorRadius; // Major radius (distance from the center of the tube to the center of the torus)
